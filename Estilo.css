@@ -1,0 +1,265 @@
+.fondo {
+  background-color: #fff9d8;
+}
+
+.cuadro {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.cuadro-encabezado {
+  max-width: 800px;
+  height: 200px;
+  margin: auto;
+  padding: 20px;
+  border: 15px solid #ccc;
+  border-radius: 10px;
+  background-image: url("imagenes/Que es la violencia.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.cuadro-encabezado-fisica {
+  max-width: 800px;
+  height: 200px;
+  margin: auto;
+  padding: 20px;
+  border: 15px solid #ccc;
+  border-radius: 10px;
+  background-image: url("imagenes/maltrato-scaled.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.cuadro-encabezado-emocional {
+  max-width: 800px;
+  height: 200px;
+  margin: auto;
+  padding: 20px;
+  border: 15px solid #ccc;
+  border-radius: 10px;
+  background-image: url("imagenes/Violencia\ emocional.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.cuadro-encabezado-sexual {
+  max-width: 800px;
+  height: 200px;
+  margin: auto;
+  padding: 20px;
+  border: 15px solid #ccc;
+  border-radius: 10px;
+  background-image: url("imagenes/sexual-hombre.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.cuadro-encabezado-econo {
+  max-width: 800px;
+  height: 200px;
+  margin: auto;
+  padding: 20px;
+  border: 15px solid #ccc;
+  border-radius: 10px;
+  background-image: url("imagenes/violencia\ economica.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.cuadro-tdv {
+  max-width: auto;
+  height: 900px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-image: url("imagenes/tipos-de-violencia.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.cuadro-fisica {
+  max-width: 1000px;
+  height: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-image: url("imagenes/pelea-adolescente.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.cuadro-psico {
+  max-width: 900px;
+  height: 300px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-image: url("imagenes/emocional.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.cuadro-sexual {
+  max-width: 800px;
+  height: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-image: url("imagenes/sexual.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.cuadro-economica {
+  max-width: 1000px;
+  height: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-image: url("imagenes/patrimonial.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  border-bottom: 1px solid #ccc4;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.boton,
+.boton-regresar {
+  background-color: #dabf85;   /* color inicial */
+  color: white;                /* texto en blanco */
+  padding: 12px 24px;          /* espacio interno */
+  border: none;                /* sin borde */
+  border-radius: 6px;          /* esquinas redondeadas */
+  cursor: pointer;             /* mano al pasar */
+  transition: all 0.3s ease;   /* transición suave */
+}
+
+.boton:hover,
+.boton-regresar:hover {
+  background-color: #cda626cd;   /* cambia el color */
+  transform: scale(1.1);         /* agranda el botón */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* sombra */
+}
+
+.boton-regresar {
+  position: relative; 
+  left: 0px;
+  margin: 10px;
+}
+
+.p-titulo {
+  font-size: 60px;
+  text-align: center;
+  font-family: "broadway";
+  color: #ffffff;
+  
+}
+
+.p-subtitulo {
+  font-size: 45px;
+  text-align: center;
+  text-decoration: solid;
+}
+
+.p-general {
+  text-align: center;
+  font-size: 30px;
+}
+
+.p-enlace {
+  font-size: 30px;
+  text-align: justify;
+}
+
+.resaltado {
+  color: red;
+  text-decoration: underline;
+}
+
+/* contacto */
+
+/* Contenedor que ocupa toda la pantalla */
+.contact-form-container {
+  display: flex;
+  justify-content: center;   /* centra horizontalmente */
+  align-items: center;       /* centra verticalmente */
+  min-height: 10vh;         /* ocupa toda la altura de la ventana */
+}
+
+/* Tarjeta del formulario */
+.contact-form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  width: 350px;
+  align-items: center;
+}
+
+/* Campos */
+.field {
+  margin-bottom: 15px; /* más espacio entre campos */
+}
+
+.field label {
+  display: block;
+  font-size: 12px;
+  font-weight: bold; /* añadido del CSS anterior */
+  color: #555;       /* color más fuerte */
+  margin-bottom: 5px;
+}
+
+.field input {
+  display: block;
+  width: 100%;       /* ocupa todo el ancho */
+  min-width: 250px;
+  padding: 10px;     /* padding uniforme */
+  line-height: 1.5;
+  font-size: 14px;
+  border: 1px solid #ccc;   /* borde definido */
+  border-radius: 5px;       /* esquinas redondeadas */
+  transition: border-color 0.3s;
+}
+
+.field input:focus {
+  border-color: #74ebd5; /* efecto focus */
+  outline: none;
+}
+
+/* Botón */
+input[type="submit"] {
+  display: block;
+  width: 100%;             /* ocupa todo el ancho */
+  padding: 12px;           /* más cómodo */
+  font-size: 16px;         /* más grande */
+  background-color: #4460AA;
+  color: #fff;
+  border: none;
+  border-radius: 5px;      /* esquinas redondeadas */
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+input[type="submit"]:hover {
+  background: #4bb35e;     /* efecto hover */
+  transform: scale(1.05);  /* animación */
+}
